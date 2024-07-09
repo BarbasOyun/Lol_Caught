@@ -1,0 +1,163 @@
+/*#region App*/
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*#endregion*/
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+/*#region Display*/
+
+.dInline {
+  display: inline;
+}
+
+.dInline-block {
+  display: inline-block;
+}
+
+.dGrid {
+  display: grid;
+}
+
+.gridTemplate-01 {
+  grid-template-columns: 4fr 1fr 4fr; /*repeat(3, 1fr)*/
+}
+
+.gridTemplate-02 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.vAlign {
+  display: flex;
+  justify-content: center; /* Align horizontal */
+  align-items: center; /* Align vertical */
+}
+
+.origin_01 {
+  position: absolute;
+  bottom: -20%;
+  right: 55%;
+}
+
+.origin_02 {
+  position: absolute;
+  bottom: -20%;
+  right: 45%;
+}
+
+/*#endregion*/
+
+/*#region WH*/
+
+.wh_Auto {
+  width: auto;
+  height: auto;
+}
+
+.wh_01 {
+  width: 20%;
+  height: 5em;
+}
+
+.wh_02 {
+  width: auto;
+  height: 6em;
+}
+
+.wh_03 {
+  width: 7%;
+  height: 3%;
+}
+
+.wh_04 {
+  width: auto;
+  height: 4em;
+}
+
+/*#endregion*/
+
+/*#region Spacing*/
+
+.margin_auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin_autoL {
+  margin-left: auto;
+}
+
+.margin_autoR {
+  margin-right: auto;
+}
+
+.margin_01 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.margin_02 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*#endregion*/
+
+/*#region Colors*/
+
+.color-red {
+  color: red;
+}
+
+.bgColor-red {
+background-color: red;
+}
+
+.color-darkBlue {
+  color: rgb(26, 33, 51);
+}
+
+.bgcolor-darkBlue {
+  background-color: rgb(26, 33, 51);
+}
+
+.color-lightDarkblue {
+  color: rgb(34, 45, 71);
+}
+
+.bgcolor-lightDarkblue {
+  background-color: rgb(34, 45, 71);
+}
+
+.color-whitePaper {
+  color: rgb(231, 230, 227);
+}
+
+.bgcolor-whitePaper {
+  background-color: rgb(231, 230, 227);
+}
+
+/*#endregion*/
